@@ -1,0 +1,18 @@
+{
+    "name": "marcosrivas/instagram",
+    "autoload": {
+        "psr-4": {
+            "Marcosrivas\\Instagram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cristian",
+            "email": "cristian10damian@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
