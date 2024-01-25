@@ -5,6 +5,8 @@ use Marcosrivas\Instagram\controllers\Login;
 use Marcosrivas\Instagram\controllers\Home;
 use Marcosrivas\Instagram\controllers\Actions;
 use Marcosrivas\Instagram\controllers\Profile;
+use Marcosrivas\Instagram\controllers\edit;
+
 
 
     $router = new \Bramus\Router\Router();
@@ -60,6 +62,52 @@ function Auth(){
         $controller->register();
     });
 
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+    $router -> get('/profile', function(){
+        $user = unserialize($_SESSION['user']);
+        $controller = new Profile();
+        $controller ->getUserProfile($user);
+    });
+
+    
+   
+
+
+
+    $router -> get('/profile/{username}', function($username){
+        noAuth();
+        $controller = new Profile();
+        $controller ->getUserNameProfile($username);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     $router -> get('/home', function(){
         noAuth();
         $user = unserialize($_SESSION['user']);
@@ -67,24 +115,62 @@ function Auth(){
         $controller -> index();
     });
 
+
+
+    $router->get('/edit/{post_id}', function ($post_id) {
+        $controller = new Profile();
+        $post = $controller->getEditPost($post_id);
+    
+    });
+    
+
+    $router->post('/editOn', function () {
+        $post = $_POST["post_id"];
+        $title = $_POST["title"];
+
+        echo $post, $title;
+        
+    });
+
+
     $router -> post('/publish', function(){
         noAuth();
         $user = unserialize($_SESSION['user']);
         $controller = new Home($user);
         $controller -> store();
     });
+    
 
-    $router -> get('/profile', function(){
-        noAuth();
-        $user = unserialize($_SESSION['user']);
-        $controller = new Profile();
-        $controller ->getUserProfile($user);
-    });
 
-    $router -> get('/CR', function(){
-        $user = unserialize($_SESSION['user']);
-        $controller = new Profile();
-    });
+
+
+
+
+
+
+    
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     $router -> post('/addLike', function(){
         noAuth();
@@ -100,11 +186,7 @@ function Auth(){
         header("location: /instagram/login");
     });
 
-    $router -> get('/profile/{username}', function($username){
-        noAuth();
-        $controller = new Profile();
-        $controller ->getUserNameProfile($username);
-    });
+  
 
     $router -> run();
 ?>

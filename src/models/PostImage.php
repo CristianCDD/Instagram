@@ -74,13 +74,15 @@ class PostImage extends Post{
             $post = new PostImage($data['title'], $data['media']);
             $post->setId($data['post_id']);
 
-            return $post;
+            var_dump($post);
 
         } catch (PDOException $e) {
             return NULL;
 
         }
     }
+
+   
 
     public function getImage(){
         return $this->image;

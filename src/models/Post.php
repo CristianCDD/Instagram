@@ -28,6 +28,8 @@ use PDOException;
             $this->id = $id;
         }
 
+       
+
         public function getTitle(){
             return $this->title;
         }
@@ -60,6 +62,8 @@ use PDOException;
                     array_push($items, $item);
                 } 
                 $this->likes = $items;
+
+                 
                 //return $items;
             }catch(PDOException $e){
 

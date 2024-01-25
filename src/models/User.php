@@ -51,6 +51,10 @@ class User extends Model{
 
 
 
+   
+
+
+
     public static function exists($username){
         try{
             $db = new Database();
@@ -93,6 +97,45 @@ class User extends Model{
 
         }
     }
+
+    public static function getPost($post_id){
+        try {
+            $db = new Database();
+        $query = $db->connect()->prepare("SELECT * FROM posts WHERE post_id = :post_id");
+        $query->execute(['post_id' => $post_id]);
+    
+        $data = $query->fetch(PDO::FETCH_ASSOC);
+
+        // Filtras los campos que deseas incluir en el resultado
+        $filteredData = [
+            "post_id" => $data["post_id"],
+            "title" => $data["title"],
+            "media" => $data["media"]
+            // Agrega más campos si es necesario
+        ];
+
+        return $filteredData;
+
+
+        } catch (PDOException $e) {
+            error_log($e -> getMessage());
+            return NULL;
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public static function getById(string $user_id): User{
         try {
@@ -141,6 +184,20 @@ class User extends Model{
             echo "Error";
             return false;
 
+        }
+    }
+
+    public function Post($post_id){
+        try {
+            $db = new Database();
+
+            $query = $db -> connect()->prepare("SELECT * FROM post WHERE post_id = :post_id");
+            $query ->execute(['post_id' => $post_id] );
+
+            return true;
+        } catch (PDOException $e) {
+            echo "Error";
+            return false;
         }
     }
 

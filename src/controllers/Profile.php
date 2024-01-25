@@ -12,17 +12,25 @@ class Profile extends Controller{
     public function getUserProfile(User $user){
         $user -> fetchPost();
         $this->render("profile/index", ["user"=>$user]);
-
+   
     }
 
+
+
+  
 
     public function getUsernameProfile(string $username){
         $user = User::get($username);
         $this->getUserProfile($user);
-        
     }
-}
 
-?>
+
+
+    public function getEditPost(String $user){
+        $post = User::getPost($user);
+        $this->render("edit/index", ["post"=>$post]);
+
+        }
+}
 
 ?>

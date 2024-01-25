@@ -22,24 +22,19 @@
         $user = $this->d['user'];
         $posts = $this->d['posts'];
         
-        foreach($posts as $p){ ?>
-
-
+        foreach ($posts as $p) { ?>
             <div class="card mt-2">
-
                 <div class="card-body">
-
-                <img class="rounded-circle" src="public/img/photos/<?php echo $p->getUser()->getProfile() ?>" width="32" />
-                    <a class="link-dark" href="/instagram/profile/<?php echo $p ->getUser()->getUsername()?>">
-                    <?php echo $p->getUser()->getUsername() ?>
+                    <img class="rounded-circle" src="public/img/photos/<?php echo $p->getUser()->getProfile() ?>" width="32" />
+                    <a class="link-dark" href="/instagram/profile/<?php echo $p->getUser()->getUsername() ?>">
+                        <?php echo $p->getUser()->getUsername() ?>
+                        <input type="submit" name="post_id" value="<?php echo $p->getId(); ?> ">
                     </a>
                 </div>
-
+        
                 <img src="public/img/photos/<?php echo $p->getImage() ?>" width="100%" />
-
-                
+        
                 <div class="card-body">
-                    
                     <div class="card-title">
                         <form action="addLike" method="POST">
                             <input type="hidden" name="post_id" value="<?php echo $p->getId() ?>">
@@ -48,11 +43,13 @@
                         </form>
                     </div>
                     <p class="card-text"><?php echo $p->getTitle() ?></p>
+        
+                    <!-- Agregar botón Editar con un enlace a la ruta /edit -->
+                    <a href="/instagram/edit/<?php echo $p->getId(); ?>" class="btn btn-primary">Editar</a>
                 </div>
             </div>
-            
-            
-    <?php } ?>
+        <?php } ?>
+        
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
