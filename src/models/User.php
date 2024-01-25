@@ -147,6 +147,21 @@ class User extends Model{
 
 
 
+public static function updatePost($postId, $title, $fileNamee){
+    try {
+        $db = new Database();
+        $query = $db->connect()->prepare("UPDATE posts SET title = :title, media = :media WHERE post_id = :postId");
+        $query->execute([
+            "title" => $title,
+            "media" => $fileNamee, // Use the correct parameter name here
+            "postId" => $postId
+        ]);    
+    } catch (PDOException $e) {
+        // Handle the exception, for example:
+        echo "Error: " . $e->getMessage();
+    }
+}
+
 
 
 

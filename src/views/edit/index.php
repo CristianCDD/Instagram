@@ -13,7 +13,7 @@
    <form action="/instagram/editOn"  method="POST" enctype="multipart/form-data">
 
    <input type="hidden" value="<?php echo($post['post_id']); ?>" name="post_id">
-
+   <input type="file" class="w-50" name="image" accept="image/png, image/jpeg">
 
     <img src="<?php echo  APP_URL . ($post['media'])?>" alt="">
     <input type="text" value="<?php echo($post['title']); ?>" name="title">

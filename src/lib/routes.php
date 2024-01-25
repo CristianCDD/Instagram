@@ -4,6 +4,7 @@ use Marcosrivas\Instagram\controllers\Signup;
 use Marcosrivas\Instagram\controllers\Login;
 use Marcosrivas\Instagram\controllers\Home;
 use Marcosrivas\Instagram\controllers\Actions;
+use Marcosrivas\Instagram\controllers\Edit;
 use Marcosrivas\Instagram\controllers\Profile;
 
 
@@ -67,12 +68,7 @@ function Auth(){
         $controller -> index();
     });
 
-    $router -> post('/publish', function(){
-        noAuth();
-        $user = unserialize($_SESSION['user']);
-        $controller = new Home($user);
-        $controller -> store();
-    });
+   
 
     $router -> get('/profile', function(){
         noAuth();
@@ -83,7 +79,7 @@ function Auth(){
 
 
     $router->get('/edit/{post_id}', function ($post_id) {
-        $controller = new Profile();
+        $controller = new Edit();
         $post = $controller->getEditPost($post_id);
 
     });
@@ -91,11 +87,23 @@ function Auth(){
 
 
     $router->post('/editOn', function () {
-        $post = $_POST["post_id"];
-        $title = $_POST["title"];
+        
 
-        echo $post, $title;
+       $controller = new Edit();
+       $controller->updateEdit();
 
+
+
+        
+
+    });
+
+
+    $router -> post('/publish', function(){
+        noAuth();
+        $user = unserialize($_SESSION['user']);
+        $controller = new Home($user);
+        $controller -> store();
     });
 
 

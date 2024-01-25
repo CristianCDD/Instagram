@@ -4922,3 +4922,228 @@ Stack trace:
 [25-Jan-2024 05:04:24 Europe/Berlin] Inicia app
 [25-Jan-2024 05:04:57 Europe/Berlin] Inicia app
 [25-Jan-2024 05:05:00 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:26 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:31 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:32 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:32 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:35 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:38 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:39 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:40 Europe/Berlin] Inicia app
+[25-Jan-2024 17:23:42 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:02 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:03 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:03 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:13 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:13 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:13 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:15 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:15 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:16 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:17 Europe/Berlin] Inicia app
+[25-Jan-2024 17:24:20 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:03 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:03 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:04 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:04 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:05 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:06 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:06 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:08 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:10 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:39 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:39 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:40 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:40 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:40 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:42 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:42 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:45 Europe/Berlin] Inicia app
+[25-Jan-2024 17:37:47 Europe/Berlin] Inicia app
+[25-Jan-2024 17:38:04 Europe/Berlin] Inicia app
+[25-Jan-2024 17:40:24 Europe/Berlin] Inicia app
+[25-Jan-2024 17:40:25 Europe/Berlin] Inicia app
+[25-Jan-2024 17:40:27 Europe/Berlin] Inicia app
+[25-Jan-2024 17:40:48 Europe/Berlin] Inicia app
+[25-Jan-2024 17:50:51 Europe/Berlin] Inicia app
+[25-Jan-2024 17:50:51 Europe/Berlin] Inicia app
+[25-Jan-2024 17:50:52 Europe/Berlin] Inicia app
+[25-Jan-2024 17:50:56 Europe/Berlin] Inicia app
+[25-Jan-2024 17:50:56 Europe/Berlin] Inicia app
+[25-Jan-2024 17:51:00 Europe/Berlin] Inicia app
+[25-Jan-2024 17:51:00 Europe/Berlin] Inicia app
+[25-Jan-2024 17:51:01 Europe/Berlin] Inicia app
+[25-Jan-2024 17:51:07 Europe/Berlin] Inicia app
+[25-Jan-2024 17:51:10 Europe/Berlin] Inicia app
+[25-Jan-2024 17:51:10 Europe/Berlin] Inicia app
+[25-Jan-2024 17:51:11 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:29 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:30 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:30 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:31 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:32 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:33 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:33 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:33 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:45 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:45 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:46 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:48 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:48 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:49 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:53 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:54 Europe/Berlin] Inicia app
+[25-Jan-2024 17:58:55 Europe/Berlin] Inicia app
+[25-Jan-2024 18:33:36 Europe/Berlin] Inicia app
+[25-Jan-2024 18:33:36 Europe/Berlin] Inicia app
+[25-Jan-2024 18:33:37 Europe/Berlin] Inicia app
+[25-Jan-2024 18:33:43 Europe/Berlin] Inicia app
+[25-Jan-2024 18:33:43 Europe/Berlin] PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\Instagram\src\controllers\Edit.php on line 24
+[25-Jan-2024 18:34:33 Europe/Berlin] Inicia app
+[25-Jan-2024 18:34:45 Europe/Berlin] Inicia app
+[25-Jan-2024 18:35:36 Europe/Berlin] Inicia app
+[25-Jan-2024 18:38:50 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:11 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:13 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:24 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:24 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:24 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:30 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:31 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:32 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:35 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:35 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[25-Jan-2024 18:43:35 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(130): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[25-Jan-2024 18:43:38 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:41 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:44 Europe/Berlin] Inicia app
+[25-Jan-2024 18:43:44 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[25-Jan-2024 18:43:44 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(130): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[25-Jan-2024 18:44:09 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:11 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:14 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:14 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[25-Jan-2024 18:44:14 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(130): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[25-Jan-2024 18:44:15 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:15 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:16 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:17 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:18 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:20 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:24 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:24 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[25-Jan-2024 18:44:24 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(130): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[25-Jan-2024 18:44:35 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:35 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:36 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:37 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:37 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:39 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:42 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:42 Europe/Berlin] Inicia app
+[25-Jan-2024 18:44:42 Europe/Berlin] Inicia app
+[25-Jan-2024 18:46:58 Europe/Berlin] Inicia app
+[25-Jan-2024 18:47:03 Europe/Berlin] Inicia app
+[25-Jan-2024 18:47:03 Europe/Berlin] Inicia app
+[25-Jan-2024 18:47:03 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:13 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:13 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:14 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:19 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:19 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:19 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:21 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:52 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:52 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:54 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:54 Europe/Berlin] Inicia app
+[25-Jan-2024 18:49:57 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:02 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:02 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:02 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:19 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:20 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:21 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:22 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:22 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:24 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:57 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:57 Europe/Berlin] Inicia app
+[25-Jan-2024 18:50:58 Europe/Berlin] Inicia app
+[25-Jan-2024 18:52:04 Europe/Berlin] Inicia app
+[25-Jan-2024 18:52:12 Europe/Berlin] Inicia app
+[25-Jan-2024 18:52:12 Europe/Berlin] Inicia app
+[25-Jan-2024 18:52:12 Europe/Berlin] Inicia app
+[25-Jan-2024 18:53:45 Europe/Berlin] Inicia app
+[25-Jan-2024 18:53:45 Europe/Berlin] Inicia app
+[25-Jan-2024 18:53:47 Europe/Berlin] Inicia app
+[25-Jan-2024 18:53:51 Europe/Berlin] Inicia app
+[25-Jan-2024 18:53:51 Europe/Berlin] Inicia app
+[25-Jan-2024 18:53:51 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:33 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:34 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:35 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:39 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:39 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:40 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:48 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:53 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:53 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:56 Europe/Berlin] Inicia app
+[25-Jan-2024 18:55:56 Europe/Berlin] Inicia app
+[25-Jan-2024 18:56:04 Europe/Berlin] Inicia app
+[25-Jan-2024 18:56:04 Europe/Berlin] Inicia app
+[25-Jan-2024 18:56:07 Europe/Berlin] Inicia app
+[25-Jan-2024 18:56:07 Europe/Berlin] Inicia app
+[25-Jan-2024 18:57:38 Europe/Berlin] Inicia app
+[25-Jan-2024 18:57:40 Europe/Berlin] Inicia app
+[25-Jan-2024 18:57:46 Europe/Berlin] Inicia app
+[25-Jan-2024 18:57:46 Europe/Berlin] Inicia app

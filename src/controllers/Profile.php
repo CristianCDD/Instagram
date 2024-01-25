@@ -22,11 +22,11 @@ class Profile extends Controller{
         
     }
 
-    public function getEditPost(String $user){
+   /*  public function getEditPost(String $user){
         $post = User::getPost($user);
         $this->render("edit/index", ["post"=>$post]);
 
-        }
+        } */
 }
 
 ?>
