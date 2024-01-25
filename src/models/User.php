@@ -145,6 +145,42 @@ class User extends Model{
     }
 
 
+
+
+
+
+
+
+
+
+
+    public static function getPost($post_id){
+        try {
+            $db = new Database();
+        $query = $db->connect()->prepare("SELECT * FROM posts WHERE post_id = :post_id");
+        $query->execute(['post_id' => $post_id]);
+
+        $data = $query->fetch(PDO::FETCH_ASSOC);
+
+        // Filtras los campos que deseas incluir en el resultado
+        $filteredData = [
+            "post_id" => $data["post_id"],
+            "title" => $data["title"],
+            "media" => $data["media"]
+            // Agrega más campos si es necesario
+        ];
+
+        return $filteredData;
+
+
+        } catch (PDOException $e) {
+            error_log($e -> getMessage());
+            return NULL;
+
+        }
+    }
+
+
     public function getId(){
         return $this->id;
     }

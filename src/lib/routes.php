@@ -81,10 +81,23 @@ function Auth(){
         $controller ->getUserProfile($user);
     });
 
-    $router -> get('/CR', function(){
-        $user = unserialize($_SESSION['user']);
+
+    $router->get('/edit/{post_id}', function ($post_id) {
         $controller = new Profile();
+        $post = $controller->getEditPost($post_id);
+
     });
+
+
+
+    $router->post('/editOn', function () {
+        $post = $_POST["post_id"];
+        $title = $_POST["title"];
+
+        echo $post, $title;
+
+    });
+
 
     $router -> post('/addLike', function(){
         noAuth();

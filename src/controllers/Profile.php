@@ -21,8 +21,12 @@ class Profile extends Controller{
         $this->getUserProfile($user);
         
     }
-}
 
-?>
+    public function getEditPost(String $user){
+        $post = User::getPost($user);
+        $this->render("edit/index", ["post"=>$post]);
+
+        }
+}
 
 ?>
