@@ -114,6 +114,13 @@ function Auth(){
         $controller -> like();
     });
 
+    $router -> post('/profile/addLike', function(){
+        noAuth();
+        $user = unserialize($_SESSION['user']);
+        $controller = new Actions($user);
+        $controller -> like();
+    });
+
     //Salir de la sesion
     $router -> get('/singout', function(){
         noAuth();

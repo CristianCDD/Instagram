@@ -5937,3 +5937,25 @@ Stack trace:
 [26-Jan-2024 06:06:33 Europe/Berlin] Inicia app
 [26-Jan-2024 06:06:34 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
 [26-Jan-2024 06:06:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:16:57 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:03 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:03 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:05 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:06 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:06 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:06 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:07 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:07 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:07 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:08 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:08 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:08 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:08 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:09 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:09 Europe/Berlin] Inicia app
+[26-Jan-2024 06:17:09 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 06:17:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
