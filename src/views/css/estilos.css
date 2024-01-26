@@ -1,0 +1,46 @@
+img.imgPost {
+    height: 500px;
+}
+
+.btnLike {
+    background: none;
+    border: none;
+  
+}
+
+.fa-regular{
+    font-size: 22px !important;
+
+}
+
+.imgPerfil{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.namePerfil{
+    text-decoration: none;
+}
+
+.editBtn{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: #000 ;
+    font-size: 20px !important;
+
+}
+
+.fa-regular.fa-heart:active {
+    color: #ff3040; /* Cambiar el color del texto cuando se hace clic en el botón */
+}
+
+@media screen and (max-width: 992px){
+    
+    .container{
+       width: 100% !important;
+    }
+}
