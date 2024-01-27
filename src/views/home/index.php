@@ -51,8 +51,7 @@
                     </div>
                     <p class="card-text"><?php echo $p->getTitle() ?></p>
         
-                    <!-- Agregar botón Editar con un enlace a la ruta /edit -->
-                    <a href="/instagram/edit/<?php echo $p->getId(); ?>" class="editBtn"><i class="fa-solid fa-pen-to-square"></i></a>
+                  
                 </div>
             </div>
         <?php } ?>

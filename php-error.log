@@ -5959,3 +5959,787 @@ Stack trace:
 [26-Jan-2024 06:17:09 Europe/Berlin] Inicia app
 [26-Jan-2024 06:17:09 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
 [26-Jan-2024 06:17:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:02:44 Europe/Berlin] Inicia app
+[26-Jan-2024 17:02:48 Europe/Berlin] Inicia app
+[26-Jan-2024 17:02:48 Europe/Berlin] Inicia app
+[26-Jan-2024 17:02:54 Europe/Berlin] Inicia app
+[26-Jan-2024 17:02:55 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:04 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:04 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:05 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:05 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:05 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:06 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:06 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:06 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:08 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:08 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:10 Europe/Berlin] Inicia app
+[26-Jan-2024 17:03:10 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:10 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:03:12 Europe/Berlin] Inicia app
+[26-Jan-2024 17:04:51 Europe/Berlin] Inicia app
+[26-Jan-2024 17:04:53 Europe/Berlin] Inicia app
+[26-Jan-2024 17:04:53 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:04:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 17:04:54 Europe/Berlin] Inicia app
+[26-Jan-2024 17:04:55 Europe/Berlin] Inicia app
+[26-Jan-2024 17:04:57 Europe/Berlin] Inicia app
+[26-Jan-2024 17:04:59 Europe/Berlin] Inicia app
+[26-Jan-2024 17:10:56 Europe/Berlin] Inicia app
+[26-Jan-2024 17:11:13 Europe/Berlin] Inicia app
+[26-Jan-2024 17:11:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_URL" in C:\xampp\htdocs\Instagram\src\views\edit\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\View.php(13): require()
+#1 C:\xampp\htdocs\Instagram\src\lib\Controller.php(15): Marcosrivas\Instagram\lib\View->render('edit/index', Array)
+#2 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(18): Marcosrivas\Instagram\lib\Controller->render('edit/index', Array)
+#3 C:\xampp\htdocs\Instagram\src\lib\routes.php(83): Marcosrivas\Instagram\controllers\Edit->getEditPost('26')
+#4 [internal function]: {closure}('26')
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#7 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#8 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#9 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\views\edit\index.php on line 8
+[26-Jan-2024 17:11:23 Europe/Berlin] Inicia app
+[26-Jan-2024 17:11:40 Europe/Berlin] Inicia app
+[26-Jan-2024 17:11:40 Europe/Berlin] PHP Warning:  Constant APP_URL already defined in C:\xampp\htdocs\Instagram\src\views\edit\index.php on line 18
+[26-Jan-2024 17:12:36 Europe/Berlin] Inicia app
+[26-Jan-2024 17:12:36 Europe/Berlin] Inicia app
+[26-Jan-2024 17:12:48 Europe/Berlin] Inicia app
+[26-Jan-2024 17:14:05 Europe/Berlin] Inicia app
+[26-Jan-2024 17:15:08 Europe/Berlin] Inicia app
+[26-Jan-2024 17:15:46 Europe/Berlin] Inicia app
+[26-Jan-2024 17:17:03 Europe/Berlin] Inicia app
+[26-Jan-2024 17:17:39 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:16 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:25 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:25 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 17:18:26 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 17:18:28 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:35 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:40 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:43 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:45 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:45 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 17:18:45 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 17:18:52 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:59 Europe/Berlin] Inicia app
+[26-Jan-2024 17:18:59 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:07 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:12 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:12 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:15 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:15 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:15 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 17:19:15 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 17:19:17 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:17 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:27 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:35 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:35 Europe/Berlin] Inicia app
+[26-Jan-2024 17:19:41 Europe/Berlin] Inicia app
+[26-Jan-2024 17:21:13 Europe/Berlin] Inicia app
+[26-Jan-2024 17:21:17 Europe/Berlin] Inicia app
+[26-Jan-2024 17:22:46 Europe/Berlin] Inicia app
+[26-Jan-2024 17:22:55 Europe/Berlin] Inicia app
+[26-Jan-2024 17:23:09 Europe/Berlin] Inicia app
+[26-Jan-2024 17:23:36 Europe/Berlin] Inicia app
+[26-Jan-2024 17:24:01 Europe/Berlin] Inicia app
+[26-Jan-2024 17:24:19 Europe/Berlin] Inicia app
+[26-Jan-2024 17:24:38 Europe/Berlin] Inicia app
+[26-Jan-2024 17:24:51 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:24 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:24 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:27 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:41 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:41 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:45 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:53 Europe/Berlin] Inicia app
+[26-Jan-2024 17:28:53 Europe/Berlin] Inicia app
+[26-Jan-2024 17:29:14 Europe/Berlin] Inicia app
+[26-Jan-2024 17:30:46 Europe/Berlin] Inicia app
+[26-Jan-2024 17:31:31 Europe/Berlin] Inicia app
+[26-Jan-2024 17:33:37 Europe/Berlin] Inicia app
+[26-Jan-2024 17:34:13 Europe/Berlin] Inicia app
+[26-Jan-2024 17:34:19 Europe/Berlin] Inicia app
+[26-Jan-2024 17:34:21 Europe/Berlin] Inicia app
+[26-Jan-2024 17:34:42 Europe/Berlin] Inicia app
+[26-Jan-2024 17:35:08 Europe/Berlin] Inicia app
+[26-Jan-2024 17:35:15 Europe/Berlin] Inicia app
+[26-Jan-2024 17:36:36 Europe/Berlin] Inicia app
+[26-Jan-2024 17:36:44 Europe/Berlin] Inicia app
+[26-Jan-2024 17:36:54 Europe/Berlin] Inicia app
+[26-Jan-2024 17:37:19 Europe/Berlin] Inicia app
+[26-Jan-2024 17:38:06 Europe/Berlin] Inicia app
+[26-Jan-2024 17:38:12 Europe/Berlin] Inicia app
+[26-Jan-2024 17:38:18 Europe/Berlin] Inicia app
+[26-Jan-2024 17:38:24 Europe/Berlin] Inicia app
+[26-Jan-2024 17:38:31 Europe/Berlin] Inicia app
+[26-Jan-2024 17:38:42 Europe/Berlin] Inicia app
+[26-Jan-2024 17:38:55 Europe/Berlin] Inicia app
+[26-Jan-2024 17:39:37 Europe/Berlin] Inicia app
+[26-Jan-2024 17:45:44 Europe/Berlin] Inicia app
+[26-Jan-2024 17:49:06 Europe/Berlin] Inicia app
+[26-Jan-2024 17:49:09 Europe/Berlin] Inicia app
+[26-Jan-2024 17:49:11 Europe/Berlin] Inicia app
+[26-Jan-2024 17:49:13 Europe/Berlin] Inicia app
+[26-Jan-2024 17:49:20 Europe/Berlin] Inicia app
+[26-Jan-2024 17:49:20 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 17:49:20 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 17:49:22 Europe/Berlin] Inicia app
+[26-Jan-2024 17:51:22 Europe/Berlin] Inicia app
+[26-Jan-2024 17:52:55 Europe/Berlin] Inicia app
+[26-Jan-2024 17:52:56 Europe/Berlin] Inicia app
+[26-Jan-2024 17:52:56 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 17:52:56 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(33): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 17:53:04 Europe/Berlin] Inicia app
+[26-Jan-2024 17:53:05 Europe/Berlin] Inicia app
+[26-Jan-2024 17:53:07 Europe/Berlin] Inicia app
+[26-Jan-2024 17:53:09 Europe/Berlin] Inicia app
+[26-Jan-2024 17:53:10 Europe/Berlin] Inicia app
+[26-Jan-2024 17:53:10 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 17:53:10 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(33): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 17:53:57 Europe/Berlin] Inicia app
+[26-Jan-2024 17:53:58 Europe/Berlin] Inicia app
+[26-Jan-2024 17:54:05 Europe/Berlin] Inicia app
+[26-Jan-2024 17:54:05 Europe/Berlin] Inicia app
+[26-Jan-2024 17:54:07 Europe/Berlin] Inicia app
+[26-Jan-2024 17:54:11 Europe/Berlin] Inicia app
+[26-Jan-2024 17:54:11 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 17:54:11 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(33): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:02:44 Europe/Berlin] Inicia app
+[26-Jan-2024 18:02:47 Europe/Berlin] Inicia app
+[26-Jan-2024 18:02:48 Europe/Berlin] Inicia app
+[26-Jan-2024 18:02:49 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:10 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:11 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:13 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:14 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:36 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:38 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:40 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:41 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:43 Europe/Berlin] Inicia app
+[26-Jan-2024 18:03:43 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:03:43 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(33): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:05:29 Europe/Berlin] Inicia app
+[26-Jan-2024 18:05:33 Europe/Berlin] Inicia app
+[26-Jan-2024 18:05:36 Europe/Berlin] Inicia app
+[26-Jan-2024 18:05:38 Europe/Berlin] Inicia app
+[26-Jan-2024 18:05:40 Europe/Berlin] Inicia app
+[26-Jan-2024 18:05:40 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:05:40 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(33): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:05:59 Europe/Berlin] Inicia app
+[26-Jan-2024 18:05:59 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:05:59 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(32): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:06:11 Europe/Berlin] Inicia app
+[26-Jan-2024 18:06:11 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:06:11 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(32): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:06:13 Europe/Berlin] Inicia app
+[26-Jan-2024 18:06:14 Europe/Berlin] Inicia app
+[26-Jan-2024 18:06:16 Europe/Berlin] Inicia app
+[26-Jan-2024 18:06:16 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:06:16 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(32): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:06:38 Europe/Berlin] Inicia app
+[26-Jan-2024 18:06:38 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:06:38 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(32): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:06:48 Europe/Berlin] Inicia app
+[26-Jan-2024 18:06:48 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:06:48 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(33): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:07:54 Europe/Berlin] Inicia app
+[26-Jan-2024 18:07:54 Europe/Berlin] PHP Warning:  Undefined variable $ in C:\xampp\htdocs\Instagram\src\controllers\Edit.php on line 29
+[26-Jan-2024 18:07:54 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:07:54 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(32): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:08:05 Europe/Berlin] Inicia app
+[26-Jan-2024 18:08:24 Europe/Berlin] Inicia app
+[26-Jan-2024 18:08:46 Europe/Berlin] Inicia app
+[26-Jan-2024 18:09:09 Europe/Berlin] Inicia app
+[26-Jan-2024 18:09:57 Europe/Berlin] Inicia app
+[26-Jan-2024 18:10:00 Europe/Berlin] Inicia app
+[26-Jan-2024 18:10:02 Europe/Berlin] Inicia app
+[26-Jan-2024 18:10:04 Europe/Berlin] Inicia app
+[26-Jan-2024 18:10:35 Europe/Berlin] Inicia app
+[26-Jan-2024 18:11:07 Europe/Berlin] Inicia app
+[26-Jan-2024 18:12:07 Europe/Berlin] Inicia app
+[26-Jan-2024 18:12:26 Europe/Berlin] Inicia app
+[26-Jan-2024 18:12:54 Europe/Berlin] Inicia app
+[26-Jan-2024 18:12:54 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:12:54 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:12:56 Europe/Berlin] Inicia app
+[26-Jan-2024 18:12:56 Europe/Berlin] Inicia app
+[26-Jan-2024 18:12:57 Europe/Berlin] Inicia app
+[26-Jan-2024 18:12:59 Europe/Berlin] Inicia app
+[26-Jan-2024 18:13:03 Europe/Berlin] Inicia app
+[26-Jan-2024 18:13:03 Europe/Berlin] Inicia app
+[26-Jan-2024 18:13:51 Europe/Berlin] Inicia app
+[26-Jan-2024 18:13:54 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:02 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:02 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:22 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:24 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:25 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:25 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:14:25 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:14:50 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:51 Europe/Berlin] Inicia app
+[26-Jan-2024 18:14:55 Europe/Berlin] Inicia app
+[26-Jan-2024 18:15:54 Europe/Berlin] Inicia app
+[26-Jan-2024 18:15:55 Europe/Berlin] Inicia app
+[26-Jan-2024 18:16:02 Europe/Berlin] Inicia app
+[26-Jan-2024 18:16:02 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:16:02 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(28): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:16:24 Europe/Berlin] Inicia app
+[26-Jan-2024 18:16:24 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:16:24 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(30): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:16:25 Europe/Berlin] Inicia app
+[26-Jan-2024 18:16:26 Europe/Berlin] Inicia app
+[26-Jan-2024 18:16:27 Europe/Berlin] Inicia app
+[26-Jan-2024 18:16:41 Europe/Berlin] Inicia app
+[26-Jan-2024 18:16:41 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:16:41 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(30): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:18:49 Europe/Berlin] Inicia app
+[26-Jan-2024 18:18:51 Europe/Berlin] Inicia app
+[26-Jan-2024 18:18:54 Europe/Berlin] Inicia app
+[26-Jan-2024 18:18:54 Europe/Berlin] PHP Warning:  Undefined array key -1 in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 9
+[26-Jan-2024 18:18:54 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Instagram\src\lib\UtilImages.php(16): getimagesize('')
+#1 C:\xampp\htdocs\Instagram\src\controllers\Edit.php(30): Marcosrivas\Instagram\lib\UtilImages::storeImage(Array)
+#2 C:\xampp\htdocs\Instagram\src\lib\routes.php(93): Marcosrivas\Instagram\controllers\Edit->updateEdit()
+#3 [internal function]: {closure}()
+#4 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\xampp\htdocs\Instagram\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\xampp\htdocs\Instagram\src\lib\routes.php(137): Bramus\Router\Router->run()
+#8 C:\xampp\htdocs\Instagram\index.php(14): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\Instagram\src\lib\UtilImages.php on line 16
+[26-Jan-2024 18:19:08 Europe/Berlin] Inicia app
+[26-Jan-2024 18:19:12 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:04 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:06 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:07 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:10 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:11 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:15 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:27 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:32 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:33 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:39 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:40 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:43 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:48 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:49 Europe/Berlin] Inicia app
+[26-Jan-2024 18:21:58 Europe/Berlin] Inicia app
+[26-Jan-2024 18:22:00 Europe/Berlin] Inicia app
+[26-Jan-2024 18:22:28 Europe/Berlin] Inicia app
+[26-Jan-2024 18:22:30 Europe/Berlin] Inicia app
+[26-Jan-2024 18:22:31 Europe/Berlin] Inicia app
+[26-Jan-2024 18:22:34 Europe/Berlin] Inicia app
+[26-Jan-2024 18:22:38 Europe/Berlin] Inicia app
+[26-Jan-2024 18:22:38 Europe/Berlin] Inicia app
+[26-Jan-2024 18:23:42 Europe/Berlin] Inicia app
+[26-Jan-2024 18:23:44 Europe/Berlin] Inicia app
+[26-Jan-2024 18:23:53 Europe/Berlin] Inicia app
+[26-Jan-2024 18:23:53 Europe/Berlin] Inicia app
+[26-Jan-2024 18:23:58 Europe/Berlin] Inicia app
+[26-Jan-2024 18:24:05 Europe/Berlin] Inicia app
+[26-Jan-2024 18:24:16 Europe/Berlin] Inicia app
+[26-Jan-2024 18:24:16 Europe/Berlin] Inicia app
+[26-Jan-2024 18:24:18 Europe/Berlin] Inicia app
+[26-Jan-2024 18:24:19 Europe/Berlin] Inicia app
+[26-Jan-2024 18:24:19 Europe/Berlin] Inicia app
+[26-Jan-2024 19:08:45 Europe/Berlin] Inicia app
+[26-Jan-2024 19:08:46 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:08:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:08:51 Europe/Berlin] Inicia app
+[26-Jan-2024 19:08:51 Europe/Berlin] Inicia app
+[26-Jan-2024 19:08:51 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:08:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:08:52 Europe/Berlin] Inicia app
+[26-Jan-2024 19:08:52 Europe/Berlin] Inicia app
+[26-Jan-2024 19:08:52 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:08:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:02 Europe/Berlin] Inicia app
+[26-Jan-2024 19:09:02 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:16 Europe/Berlin] Inicia app
+[26-Jan-2024 19:09:16 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:18 Europe/Berlin] Inicia app
+[26-Jan-2024 19:09:21 Europe/Berlin] Inicia app
+[26-Jan-2024 19:09:21 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:21 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:27 Europe/Berlin] Inicia app
+[26-Jan-2024 19:09:53 Europe/Berlin] Inicia app
+[26-Jan-2024 19:09:53 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:09:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:10:30 Europe/Berlin] Inicia app
+[26-Jan-2024 19:10:30 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:10:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:12:19 Europe/Berlin] Inicia app
+[26-Jan-2024 19:12:19 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:12:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 21
+[26-Jan-2024 19:13:07 Europe/Berlin] Inicia app
+[26-Jan-2024 19:13:08 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 25
+[26-Jan-2024 19:13:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 25
+[26-Jan-2024 19:13:17 Europe/Berlin] Inicia app
+[26-Jan-2024 19:13:17 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 22
+[26-Jan-2024 19:13:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 22
+[26-Jan-2024 19:13:59 Europe/Berlin] Inicia app
+[26-Jan-2024 19:13:59 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 22
+[26-Jan-2024 19:13:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 22
+[26-Jan-2024 19:14:28 Europe/Berlin] Inicia app
+[26-Jan-2024 19:14:28 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 19:14:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 19:14:34 Europe/Berlin] Inicia app
+[26-Jan-2024 19:14:34 Europe/Berlin] Inicia app
+[26-Jan-2024 19:14:34 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 19:14:34 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 19:14:36 Europe/Berlin] Inicia app
+[26-Jan-2024 19:14:36 Europe/Berlin] Inicia app
+[26-Jan-2024 19:14:36 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 19:14:36 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 19:16:09 Europe/Berlin] Inicia app
+[26-Jan-2024 19:16:38 Europe/Berlin] Inicia app
+[26-Jan-2024 19:16:45 Europe/Berlin] Inicia app
+[26-Jan-2024 19:16:52 Europe/Berlin] Inicia app
+[26-Jan-2024 19:17:14 Europe/Berlin] Inicia app
+[26-Jan-2024 19:17:38 Europe/Berlin] Inicia app
+[26-Jan-2024 19:17:56 Europe/Berlin] Inicia app
+[26-Jan-2024 21:27:28 Europe/Berlin] Inicia app
+[26-Jan-2024 21:36:09 Europe/Berlin] Inicia app
+[26-Jan-2024 21:39:31 Europe/Berlin] Inicia app
+[26-Jan-2024 21:39:55 Europe/Berlin] Inicia app
+[26-Jan-2024 21:40:26 Europe/Berlin] Inicia app
+[26-Jan-2024 21:43:26 Europe/Berlin] Inicia app
+[26-Jan-2024 21:45:23 Europe/Berlin] Inicia app
+[26-Jan-2024 21:47:15 Europe/Berlin] Inicia app
+[26-Jan-2024 21:48:14 Europe/Berlin] Inicia app
+[26-Jan-2024 21:48:18 Europe/Berlin] Inicia app
+[26-Jan-2024 21:48:56 Europe/Berlin] Inicia app
+[26-Jan-2024 21:49:26 Europe/Berlin] Inicia app
+[26-Jan-2024 21:49:43 Europe/Berlin] Inicia app
+[26-Jan-2024 21:56:45 Europe/Berlin] Inicia app
+[26-Jan-2024 21:56:59 Europe/Berlin] Inicia app
+[26-Jan-2024 21:57:12 Europe/Berlin] Inicia app
+[26-Jan-2024 21:57:26 Europe/Berlin] Inicia app
+[26-Jan-2024 21:58:26 Europe/Berlin] Inicia app
+[26-Jan-2024 21:59:31 Europe/Berlin] Inicia app
+[26-Jan-2024 22:00:13 Europe/Berlin] Inicia app
+[26-Jan-2024 22:02:13 Europe/Berlin] Inicia app
+[26-Jan-2024 22:02:13 Europe/Berlin] Inicia app
+[26-Jan-2024 22:22:52 Europe/Berlin] Inicia app
+[26-Jan-2024 22:22:54 Europe/Berlin] Inicia app
+[26-Jan-2024 22:22:56 Europe/Berlin] Inicia app
+[26-Jan-2024 22:22:56 Europe/Berlin] Inicia app
+[26-Jan-2024 22:22:56 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 22:22:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 22:22:56 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 22:22:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 23
+[26-Jan-2024 22:22:59 Europe/Berlin] Inicia app
+[26-Jan-2024 22:23:01 Europe/Berlin] Inicia app
+[26-Jan-2024 22:23:04 Europe/Berlin] Inicia app
+[26-Jan-2024 22:23:09 Europe/Berlin] Inicia app
+[26-Jan-2024 22:23:10 Europe/Berlin] Inicia app
+[26-Jan-2024 22:24:40 Europe/Berlin] Inicia app
+[26-Jan-2024 22:25:03 Europe/Berlin] Inicia app
+[26-Jan-2024 22:25:36 Europe/Berlin] Inicia app
+[26-Jan-2024 22:25:40 Europe/Berlin] Inicia app
+[26-Jan-2024 22:26:39 Europe/Berlin] Inicia app
+[26-Jan-2024 22:28:35 Europe/Berlin] Inicia app
+[26-Jan-2024 22:30:34 Europe/Berlin] Inicia app
+[26-Jan-2024 22:30:46 Europe/Berlin] Inicia app
+[26-Jan-2024 22:31:38 Europe/Berlin] Inicia app
+[26-Jan-2024 22:32:07 Europe/Berlin] Inicia app
+[26-Jan-2024 22:32:16 Europe/Berlin] Inicia app
+[26-Jan-2024 22:32:16 Europe/Berlin] Inicia app
+[26-Jan-2024 22:33:30 Europe/Berlin] Inicia app
+[26-Jan-2024 22:33:41 Europe/Berlin] Inicia app
+[26-Jan-2024 22:33:41 Europe/Berlin] Inicia app
+[26-Jan-2024 22:40:25 Europe/Berlin] Inicia app
+[26-Jan-2024 22:40:26 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:40:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:40:27 Europe/Berlin] Inicia app
+[26-Jan-2024 22:40:28 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:40:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:44:40 Europe/Berlin] Inicia app
+[26-Jan-2024 22:44:41 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:44:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:44:44 Europe/Berlin] Inicia app
+[26-Jan-2024 22:44:44 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:44:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:03 Europe/Berlin] Inicia app
+[26-Jan-2024 22:45:03 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:25 Europe/Berlin] Inicia app
+[26-Jan-2024 22:45:25 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:39 Europe/Berlin] Inicia app
+[26-Jan-2024 22:45:45 Europe/Berlin] Inicia app
+[26-Jan-2024 22:45:45 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:45 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:47 Europe/Berlin] Inicia app
+[26-Jan-2024 22:45:55 Europe/Berlin] Inicia app
+[26-Jan-2024 22:45:56 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:45:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:46:23 Europe/Berlin] Inicia app
+[26-Jan-2024 22:46:23 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:46:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:46:31 Europe/Berlin] Inicia app
+[26-Jan-2024 22:46:31 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:46:31 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:47:41 Europe/Berlin] Inicia app
+[26-Jan-2024 22:47:41 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:47:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:48:02 Europe/Berlin] Inicia app
+[26-Jan-2024 22:48:02 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:48:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:49:06 Europe/Berlin] Inicia app
+[26-Jan-2024 22:49:06 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:49:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 24
+[26-Jan-2024 22:49:40 Europe/Berlin] Inicia app
+[26-Jan-2024 22:49:41 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:49:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:49:46 Europe/Berlin] Inicia app
+[26-Jan-2024 22:49:47 Europe/Berlin] Inicia app
+[26-Jan-2024 22:49:47 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:49:47 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:49:48 Europe/Berlin] Inicia app
+[26-Jan-2024 22:49:49 Europe/Berlin] Inicia app
+[26-Jan-2024 22:49:49 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:49:49 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:50:20 Europe/Berlin] Inicia app
+[26-Jan-2024 22:50:25 Europe/Berlin] Inicia app
+[26-Jan-2024 22:50:25 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:50:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 22:54:57 Europe/Berlin] Inicia app
+[26-Jan-2024 22:55:04 Europe/Berlin] Inicia app
+[26-Jan-2024 23:05:45 Europe/Berlin] Inicia app
+[26-Jan-2024 23:05:47 Europe/Berlin] Inicia app
+[26-Jan-2024 23:05:49 Europe/Berlin] Inicia app
+[26-Jan-2024 23:05:54 Europe/Berlin] Inicia app
+[26-Jan-2024 23:05:54 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:05:54 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:05:55 Europe/Berlin] Inicia app
+[26-Jan-2024 23:05:57 Europe/Berlin] Inicia app
+[26-Jan-2024 23:05:57 Europe/Berlin] Inicia app
+[26-Jan-2024 23:06:01 Europe/Berlin] Inicia app
+[26-Jan-2024 23:06:01 Europe/Berlin] Inicia app
+[26-Jan-2024 23:06:16 Europe/Berlin] Inicia app
+[26-Jan-2024 23:06:16 Europe/Berlin] Inicia app
+[26-Jan-2024 23:06:19 Europe/Berlin] Inicia app
+[26-Jan-2024 23:06:19 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:06:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:41:07 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:09 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:09 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:41:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:41:10 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:12 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:13 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:41:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:41:17 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:20 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:23 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:25 Europe/Berlin] Inicia app
+[26-Jan-2024 23:41:34 Europe/Berlin] Inicia app
+[26-Jan-2024 23:43:43 Europe/Berlin] Inicia app
+[26-Jan-2024 23:43:46 Europe/Berlin] Inicia app
+[26-Jan-2024 23:43:46 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:43:46 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:43:51 Europe/Berlin] Inicia app
+[26-Jan-2024 23:43:53 Europe/Berlin] Inicia app
+[26-Jan-2024 23:43:53 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:43:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:43:56 Europe/Berlin] Inicia app
+[26-Jan-2024 23:43:58 Europe/Berlin] Inicia app
+[26-Jan-2024 23:43:58 Europe/Berlin] Inicia app
+[26-Jan-2024 23:44:27 Europe/Berlin] Inicia app
+[26-Jan-2024 23:44:30 Europe/Berlin] Inicia app
+[26-Jan-2024 23:44:30 Europe/Berlin] Inicia app
+[26-Jan-2024 23:44:35 Europe/Berlin] Inicia app
+[26-Jan-2024 23:44:35 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:44:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:44:38 Europe/Berlin] Inicia app
+[26-Jan-2024 23:44:40 Europe/Berlin] Inicia app
+[26-Jan-2024 23:44:40 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:44:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:45:25 Europe/Berlin] Inicia app
+[26-Jan-2024 23:45:32 Europe/Berlin] Inicia app
+[26-Jan-2024 23:45:32 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:45:32 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:45:48 Europe/Berlin] Inicia app
+[26-Jan-2024 23:45:49 Europe/Berlin] Inicia app
+[26-Jan-2024 23:45:50 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:45:50 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:46:29 Europe/Berlin] Inicia app
+[26-Jan-2024 23:46:29 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:46:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:52:43 Europe/Berlin] Inicia app
+[26-Jan-2024 23:52:43 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:52:43 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:54:12 Europe/Berlin] Inicia app
+[26-Jan-2024 23:54:12 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:54:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:55:34 Europe/Berlin] Inicia app
+[26-Jan-2024 23:55:35 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:55:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:56:41 Europe/Berlin] Inicia app
+[26-Jan-2024 23:56:42 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:56:42 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:59:52 Europe/Berlin] Inicia app
+[26-Jan-2024 23:59:53 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[26-Jan-2024 23:59:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[27-Jan-2024 00:57:01 Europe/Berlin] Inicia app
+[27-Jan-2024 00:57:01 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[27-Jan-2024 00:57:01 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[27-Jan-2024 00:57:56 Europe/Berlin] Inicia app
+[27-Jan-2024 00:57:56 Europe/Berlin] PHP Warning:  Undefined property: Marcosrivas\Instagram\models\User::$d in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26
+[27-Jan-2024 00:57:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Instagram\src\views\profile\index.php on line 26

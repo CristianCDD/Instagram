@@ -25,11 +25,17 @@ class Edit extends Controller{
 
        $imagen = $_FILES["image"];
 
-       $fileName = UtilImages::storeImage($imagen); 
+$variable = $_POST["imagenDefault"];
 
 
-       User::updatePost($postId, $title, $fileName);
-        header("location: /instagram/home");  
+        if ($imagen["size"] > 0) {
+            $fileName = UtilImages::storeImage($imagen);
+            User::updatePost($postId, $title, $fileName);
+            header("location: /instagram/home");  
+        } else {
+            User::updatePost($postId, $title, $variable);
+            header("location: /instagram/home"); 
+        }
  
        
     }
